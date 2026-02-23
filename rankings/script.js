@@ -1,81 +1,44 @@
-// // Fetch the rankings JSON
-// const data = Require("./rankings.json");
-// const parsed = JSON.parse(data);
-
-
-
-// async function init() {
-//   const response = await fetch('./rankings.json');
-//   const data = await response.json();
-//   console.log(data);
-//   buildColumn(data);
-// }
-
-// function buildColumn(data) {
-//     // Get column headers dynamically
-//     const headers = Object.keys(data[0]);
-
-//     // Create header row
-//     headers.forEach(header => {
-//         const th = document.createElement("th");
-//         th.textContent = header;
-//         tableHead.appendChild(th);
-//     });
-
-//     // Generate the column first listing of company rankings
-//     let columnList = document.getElementById("column-list");
-//     data.array.forEach(company => {
-//         document.createElement("li");
-//     });
-    
-//     for (company in data){
-//         companyList = document.createElement("li");
-//         companyList.textContent = data[company];
-//         columnList.appendChild(companyList);
-//     }
-// }
-
-// init();
-
-
-
 async function loadList() {
   const response = await fetch('./rankings.json');
   const data = await response.json();
-
+  
   // Get all the headers
   let headers = [];
   for (let x in data[0]){
     headers.push(x);
   }
-  console.log(headers);
-// Generate the column first listing of company rankings
-  let columnList = document.getElementById("column-list");
-  for(let i =0; i<data.length; i++){
-    let app = data[i];
-    appName = app[headers[0]]
-    companyList = document.createElement("li");
-    companyList.textContent = appName;
-    subList = document.createElement("ul");
-    subList.id = appName;
-    for(let j=1; j<headers.length;j++){
-      item = document.createElement("li");
-      item.textContent = headers[j] + " : " + app[headers[j]]
-      subList.appendChild(item);
-      console.log(item);
-    }
-    companyList.appendChild(subList);
-    columnList.appendChild(companyList);
 
-  }
+  // Generate the first row of the table
+  let table = document.getElementById("table-ranking")
+  let headerRow = document.createElement("tr");
+  headers.forEach(header =>{
+    console.log(header);
+    let column = document.createElement("th");
+    column.scope = "col";
+    column.innerText = header;
+    headerRow.appendChild(column);
+  })
+  table.appendChild(headerRow);
+
+  // Fill in the table
+  data.forEach(app =>{
+    let appName = app[headers[0]];
+    let companyRow = document.createElement("tr");
+    let nameHeader = document.createElement("th");
+    nameHeader.scope = "row";
+    nameHeader.innerText = appName;
+    companyRow.appendChild(nameHeader);
+
+    for(let i=1; i<headers.length; i++){
+      let item = document.createElement("td");
+      item.innerText = app[headers[i]];
+      companyRow.appendChild(item);
+    }
+    table.appendChild(companyRow);
+  })
   
-  // for (company in data){
-  //     companyList = document.createElement("li");
-  //     companyList.textContent = data[company];
-  //     columnList.appendChild(companyList);
-  // }
+
 
 
 }
-
 loadList();
