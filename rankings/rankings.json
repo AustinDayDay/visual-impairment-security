@@ -342,7 +342,7 @@
   {
     "Company": "petanetra",
     "Secure Authentication and Authorisation": "FALSE",
-    "Secure Data Handling": "FALSE",
+    "Secure Data Handling": "TRUE",
     "Secure API & backend protection": "FALSE",
     "Logging, Monitoring & Alerts": "FALSE",
     "Regular updates & management": "FALSE",
@@ -352,12 +352,12 @@
     "Data encryption": "FALSE",
     "Transparent data processing": "FALSE",
     "Only keeping data for neccesary time": "FALSE",
-    "Only collect necessary data": "FALSE",
+    "Only collect necessary data": "TRUE",
     "Up-to-date data": "FALSE",
     "Accountability": "FALSE",
     "Recovery plans": "FALSE",
     "Open source": "FALSE",
-    "Score": "0.00%"
+    "Score": "11.76%"
   },
   {
     "Company": "supervision",
