@@ -15,9 +15,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "TRUE",
-    "Recovery plans": "TRUE",
     "Open source": "FALSE",
-    "Score": "88.24%"
+    "Score": "93.33%"
   },
   {
     "Company": "OOrion",
@@ -35,9 +34,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "TRUE",
-    "Recovery plans": "FALSE",
     "Open source": "FALSE",
-    "Score": "58.82%"
+    "Score": "66.67%"
   },
   {
     "Company": "Navis",
@@ -55,9 +53,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "TRUE",
-    "Recovery plans": "FALSE",
     "Open source": "FALSE",
-    "Score": "52.94%"
+    "Score": "60.00%"
   },
   {
     "Company": "Seeing AI",
@@ -75,9 +72,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "TRUE",
-    "Recovery plans": "FALSE",
     "Open source": "FALSE",
-    "Score": "47.06%"
+    "Score": "53.33%"
   },
   {
     "Company": "TapTapSee",
@@ -95,9 +91,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "TRUE",
-    "Recovery plans": "FALSE",
     "Open source": "FALSE",
-    "Score": "41.18%"
+    "Score": "46.67%"
   },
   {
     "Company": "Google Lens/Google Lookout",
@@ -115,9 +110,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "TRUE",
-    "Recovery plans": "TRUE",
     "Open source": "FALSE",
-    "Score": "88.24%"
+    "Score": "93.33%"
   },
   {
     "Company": "Microsoft Soundscape",
@@ -135,9 +129,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "TRUE",
-    "Recovery plans": "FALSE",
     "Open source": "TRUE",
-    "Score": "47.06%"
+    "Score": "53.33%"
   },
   {
     "Company": "Soundscape (Scottish Tech Army)",
@@ -155,9 +148,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "TRUE",
-    "Recovery plans": "FALSE",
     "Open source": "TRUE",
-    "Score": "47.06%"
+    "Score": "53.33%"
   },
   {
     "Company": "Soundscape Community",
@@ -175,9 +167,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "TRUE",
-    "Recovery plans": "FALSE",
     "Open source": "FALSE",
-    "Score": "41.18%"
+    "Score": "46.67%"
   },
   {
     "Company": "VoiceVista",
@@ -195,9 +186,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "FALSE",
     "Accountability": "TRUE",
-    "Recovery plans": "FALSE",
     "Open source": "TRUE",
-    "Score": "41.18%"
+    "Score": "46.67%"
   },
   {
     "Company": "Clew",
@@ -215,9 +205,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "FALSE",
-    "Recovery plans": "FALSE",
     "Open source": "FALSE",
-    "Score": "41.18%"
+    "Score": "46.67%"
   },
   {
     "Company": "NaviLens",
@@ -235,9 +224,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "TRUE",
-    "Recovery plans": "FALSE",
     "Open source": "FALSE",
-    "Score": "41.18%"
+    "Score": "46.67%"
   },
   {
     "Company": "Envision",
@@ -255,9 +243,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "TRUE",
-    "Recovery plans": "FALSE",
     "Open source": "FALSE",
-    "Score": "41.18%"
+    "Score": "46.67%"
   },
   {
     "Company": "Ally",
@@ -275,9 +262,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "TRUE",
-    "Recovery plans": "FALSE",
     "Open source": "FALSE",
-    "Score": "41.18%"
+    "Score": "46.67%"
   },
   {
     "Company": "Aira",
@@ -295,9 +281,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "TRUE",
-    "Recovery plans": "FALSE",
     "Open source": "FALSE",
-    "Score": "76.47%"
+    "Score": "86.67%"
   },
   {
     "Company": "Oko",
@@ -315,9 +300,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "TRUE",
-    "Recovery plans": "FALSE",
     "Open source": "FALSE",
-    "Score": "47.06%"
+    "Score": "53.33%"
   },
   {
     "Company": "goodmaps",
@@ -335,9 +319,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "TRUE",
-    "Recovery plans": "FALSE",
     "Open source": "FALSE",
-    "Score": "58.82%"
+    "Score": "66.67%"
   },
   {
     "Company": "petanetra",
@@ -355,9 +338,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "FALSE",
     "Accountability": "FALSE",
-    "Recovery plans": "FALSE",
     "Open source": "FALSE",
-    "Score": "11.76%"
+    "Score": "13.33%"
   },
   {
     "Company": "supervision",
@@ -375,9 +357,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "TRUE",
-    "Recovery plans": "FALSE",
     "Open source": "FALSE",
-    "Score": "52.94%"
+    "Score": "60.00%"
   },
   {
     "Company": "Supersense",
@@ -395,7 +376,6 @@
     "Only collect necessary data": "FALSE",
     "Up-to-date data": "FALSE",
     "Accountability": "FALSE",
-    "Recovery plans": "FALSE",
     "Open source": "FALSE",
     "Score": "0.00%"
   },
@@ -415,9 +395,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "TRUE",
-    "Recovery plans": "FALSE",
     "Open source": "FALSE",
-    "Score": "35.29%"
+    "Score": "40.00%"
   },
   {
     "Company": "ReBokeh",
@@ -435,9 +414,8 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "TRUE",
-    "Recovery plans": "FALSE",
     "Open source": "FALSE",
-    "Score": "47.06%"
+    "Score": "53.33%"
   },
   {
     "Company": "Jyoti (Torch It)",
@@ -455,8 +433,26 @@
     "Only collect necessary data": "TRUE",
     "Up-to-date data": "TRUE",
     "Accountability": "TRUE",
-    "Recovery plans": "FALSE",
     "Open source": "FALSE",
-    "Score": "52.94%"
+    "Score": "60.00%"
+  },
+  {
+    "Company": "Echovision (Agiga)",
+    "Secure Authentication and Authorisation": "TRUE",
+    "Secure Data Handling": "TRUE",
+    "Secure API & backend protection": "TRUE",
+    "Logging, Monitoring & Alerts": "TRUE",
+    "Regular updates & management": "TRUE",
+    "Security testing (audits, pen tests, etc)": "TRUE",
+    "Data anonymisation": "TRUE",
+    "Data deletion": "TRUE",
+    "Data encryption": "TRUE",
+    "Transparent data processing": "TRUE",
+    "Only keeping data for neccesary time": "TRUE",
+    "Only collect necessary data": "TRUE",
+    "Up-to-date data": "TRUE",
+    "Accountability": "TRUE",
+    "Open source": "FALSE",
+    "Score": "93.33%"
   }
 ]
