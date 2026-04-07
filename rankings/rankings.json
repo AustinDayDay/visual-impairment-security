@@ -361,25 +361,6 @@
     "Score": "60.00%"
   },
   {
-    "Company": "Supersense",
-    "Secure Authentication and Authorisation": "FALSE",
-    "Secure Data Handling": "FALSE",
-    "Secure API & backend protection": "FALSE",
-    "Logging, Monitoring & Alerts": "FALSE",
-    "Regular updates & management": "FALSE",
-    "Security testing (audits, pen tests, etc)": "FALSE",
-    "Data anonymisation": "FALSE",
-    "Data deletion": "FALSE",
-    "Data encryption": "FALSE",
-    "Transparent data processing": "FALSE",
-    "Only keeping data for neccesary time": "FALSE",
-    "Only collect necessary data": "FALSE",
-    "Up-to-date data": "FALSE",
-    "Accountability": "FALSE",
-    "Open source": "FALSE",
-    "Score": "0.00%"
-  },
-  {
     "Company": "SpeakyAI",
     "Secure Authentication and Authorisation": "FALSE",
     "Secure Data Handling": "FALSE",
