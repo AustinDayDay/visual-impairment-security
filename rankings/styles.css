@@ -52,8 +52,8 @@ body > a:last-of-type::before {
   background: #ffffff;
   border: 0.5px solid #e0dfd8;
   border-radius: 12px;
-  overflow: hidden;
-  max-width: 960px;
+  overflow-x: auto;
+  overflow-y: hidden;  max-width: 95%;
   margin: 0 auto;
 }
 
@@ -83,7 +83,7 @@ body > a:last-of-type::before {
   padding: 10px 16px;
   text-align: left;
   border-bottom: 0.5px solid #e0dfd8;
-  white-space: nowrap;
+  min-width: 80px;
 }
 
 #table-ranking tbody tr,
@@ -130,7 +130,7 @@ body > a:last-of-type::before {
 }
 
 /* ── Responsive ── */
-@media (max-width: 640px) {
+@media (max-width: 800px) {
   body {
     padding: 1rem;
   }
