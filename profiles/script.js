@@ -9,7 +9,7 @@ async function loadList() {
   }
 
   // Generate the first row of the table
-  let table = document.getElementById("table-profiles")
+  let table = document.getElementById("table-ranking")
   let headerRow = document.createElement("tr");
   headers.forEach(header =>{
     console.log(header);
