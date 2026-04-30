@@ -38,12 +38,12 @@ body > a:hover {
 }
 
 body > a:first-of-type::before {
-  content: "→";
+  content: "←";
   font-size: 12px;
 }
 
 body > a:last-of-type::before {
-  content: "←";
+  content: "→";
   font-size: 12px;
 }
 
