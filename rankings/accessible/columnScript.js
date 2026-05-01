@@ -21,14 +21,18 @@ async function loadList() {
       let category = headers[j];
       let value = app[category];
       item = document.createElement("li");
-      if (value == "TRUE"){
-        item.textContent = appName + " has " + category;
+      if (category == "Score"){
+        item.textContent = appName + " has a score of " + value;
+      }else{
+        if (value == "TRUE"){
+          item.textContent = appName + " has " + category;
+        }
+        else{
+          item.textContent = appName + " doesn't have " + category;
+        }
+        subList.appendChild(item);
+        console.log(item);
       }
-      else{
-        item.textContent = appName + " doesn't have " + category;
-      }
-      subList.appendChild(item);
-      console.log(item);
     }
     columnList.appendChild(companyHeader);
     columnList.appendChild(subList);
