@@ -31,8 +31,8 @@ async function loadList() {
         else{
           item.textContent = appName + " doesn't have " + category;
         }
-        subList.appendChild(item);
       }
+      subList.appendChild(item);
     }
     columnList.appendChild(companyHeader);
     columnList.appendChild(subList);
