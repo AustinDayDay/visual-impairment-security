@@ -23,6 +23,7 @@ async function loadList() {
       item = document.createElement("li");
       if (category == "Score"){
         item.textContent = appName + " has a score of " + value;
+        console.log("category is score, with a value of: " + value);
       }else{
         if (value == "TRUE"){
           item.textContent = appName + " has " + category;
@@ -31,7 +32,6 @@ async function loadList() {
           item.textContent = appName + " doesn't have " + category;
         }
         subList.appendChild(item);
-        console.log(item);
       }
     }
     columnList.appendChild(companyHeader);
