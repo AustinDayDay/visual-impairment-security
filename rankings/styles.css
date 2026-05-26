@@ -150,3 +150,50 @@ body > a:last-of-type::before {
     padding: 5px 10px;
   }
 }
+
+
+.security-rankings {
+  padding: 60px 20px;
+  background: #f5f7fb;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.stat-card {
+  background: white;
+  padding: 24px;
+  border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.ranking-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.ranking-table th,
+.ranking-table td {
+  padding: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+.ranking-table th {
+  background: #111827;
+  color: white;
+}
+
+.ranking-table tr:hover {
+  background: #f3f4f6;
+}
